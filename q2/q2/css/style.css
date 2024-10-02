@@ -1,2 +1,16 @@
 @charset "UTF-8";
 /* 回答はここから */
+.list{
+  display: flex;
+  justify-content: center;
+}
+.list--style {
+  list-style: none;
+  width: 200px;
+  margin: 30px;
+  border-radius: 13px;
+  outline: 10px solid #655;
+  box-shadow: 0 0 06 px#655;
+  padding: 10px;
+  background: #d2b48c;
+}
