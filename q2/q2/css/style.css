@@ -3,14 +3,20 @@
 .list{
   display: flex;
   justify-content: center;
+  align-items: stretch;
 }
 .list--style {
   list-style: none;
   width: 200px;
-  margin: 30px;
+  margin-left: 60px;
   border-radius: 13px;
   outline: 10px solid #655;
   box-shadow: 0 0 06 px#655;
   padding: 10px;
   background: #d2b48c;
+}
+
+.list--style:first-child {
+  margin-left: 0px;
+
 }
